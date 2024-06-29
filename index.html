@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>notNotion - Daily Quiz To Test Your JavaScript Knowledge</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="quiz">
+        <div class="heading">
+          <p class="title">Quiz app</p>
+          <p class="subtitle">Daily Quiz To Test Your general Knowledge!</p>
+        </div>
+
+        <div class="result hide">
+          <p id="score"></p>
+          <p class="reload">
+            <button onclick="window.location.reload()">Try Again?</button>
+          </p>
+        </div>
+
+        <form class="quiz-form">
+          <!-- Question 1 -->
+          <div class="question">
+            <p>
+              1. The smallest unit of information in a computer is called a:
+            </p>
+            <div class="option">
+              <input type="radio" name="q1" value="0" />
+              <label>Byte</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="1" />
+              <label>Kilobyte</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="2" />
+              <label>Megabit</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="3" />
+              <label>Gigahertz</label>
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="question">
+            <p>
+              2. The process of converting sunlight into usable energy is
+              called:
+            </p>
+            <div class="option">
+              <input type="radio" name="q2" value="0" />
+              <label>Photosynthesis</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="1" />
+              <label>Photovoltaics</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="2" />
+              <label>Nuclear Fission</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="3" />
+              <label>Combustion</label>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="question">
+            <p>
+              3. The worldwide network of interconnected computer networks is
+              called the:
+            </p>
+            <div class="option">
+              <input type="radio" name="q3" value="0" />
+              <label>Internet</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="1" />
+              <label>Intranet</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="2" />
+              <label>World Wide Web</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="3" />
+              <label>Local Area Network</label>
+            </div>
+          </div>
+
+          <!-- Question 4 -->
+          <div class="question">
+            <p>
+              4. The theory that explains the structure of the atom is called:
+            </p>
+            <div class="option">
+              <input type="radio" name="q4" value="0" />
+              <label>The Big Bang Theory</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="1" />
+              <label>Cell Theory</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="2" />
+              <label>Theory of Relativity</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="3" />
+              <label>Atomic Theory</label>
+            </div>
+          </div>
+
+          <!-- Question 5 -->
+          <div class="question">
+            <p>
+              5. The device that allows users to interact with a computer is
+              called a:
+            </p>
+            <div class="option">
+              <input type="radio" name="q5" value="0" />
+              <label>CPU</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="1" />
+              <label>RAM</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="2" />
+              <label>Hard Drive</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="3" />
+              <label>Input/Output Device</label>
+            </div>
+          </div>
+
+          <!-- Question 6 -->
+          <div class="question">
+            <p>6. The scientific study of living organisms is called:</p>
+            <div class="option">
+              <input type="radio" name="q6" value="0" />
+              <label>Physics</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q6" value="1" />
+              <label>Chemistry</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q6" value="2" />
+              <label>Biology</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q6" value="3" />
+              <label>Geology</label>
+            </div>
+          </div>
+
+          <!-- Question 7 -->
+          <div class="question">
+            <p>
+              7. The process of searching for information on the internet using
+              keywords is called:
+            </p>
+            <div class="option">
+              <input type="radio" name="q7" value="0" />
+              <label>Downloading</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q7" value="1" />
+              <label>Uploading</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q7" value="2" />
+              <label>Browsing</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q7" value="3" />
+              <label>Searching</label>
+            </div>
+          </div>
+
+          <!-- Question 8 -->
+          <div class="question">
+            <p>
+              8. The scientific method is a systematic approach to research that
+              involves:
+            </p>
+            <div class="option">
+              <input type="radio" name="q8" value="0" />
+              <label
+                >Observation, Hypothesis, Experimentation, Analysis,
+                Conclusion</label
+              >
+            </div>
+            <div class="option">
+              <input type="radio" name="q8" value="1" />
+              <label>Measurement, Theory, Experimentation, Verification</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q8" value="2" />
+              <label
+                >Analysis, Hypothesis, Observation, Conclusion,
+                Experimentation</label
+              >
+            </div>
+            <div class="option">
+              <input type="radio" name="q8" value="3" />
+              <label>Theory, Measurement, Experimentation, Hypothesis</label>
+            </div>
+          </div>
+
+          <!-- Question 9 -->
+          <div class="question">
+            <p>
+              9. The artificial intelligence that can learn and improve from
+              experience is called:
+            </p>
+            <div class="option">
+              <input type="radio" name="q9" value="0" />
+              <label>Machine Learning</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q9" value="1" />
+              <label>Deep Learning</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q9" value="2" />
+              <label>Robotics</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q9" value="3" />
+              <label>Virtual Reality</label>
+            </div>
+          </div>
+
+          <!-- Question 10 -->
+          <div class="question">
+            <p>
+              10. The technology that creates realistic simulations of
+              environments and user experiences is called:
+            </p>
+            <div class="option">
+              <input type="radio" name="q10" value="0" />
+              <label>Augmented Reality</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q10" value="1" />
+              <label>Virtual Reality</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q10" value="2" />
+              <label>Artificial Intelligence</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q10" value="3" />
+              <label>Big Data</label>
+            </div>
+          </div>
+
+          <!-- Question 11 -->
+          <div class="question">
+            <p>
+              11. The process of sending and receiving data wirelessly over
+              short distances is called:
+            </p>
+            <div class="option">
+              <input type="radio" name="q11" value="0" />
+              <label>Bluetooth</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q11" value="1" />
+              <label>Wi-Fi</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q11" value="2" />
+              <label>Cellular Network</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q11" value="3" />
+              <label>Satellite Communication</label>
+            </div>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
